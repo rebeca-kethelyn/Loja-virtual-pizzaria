@@ -1,0 +1,26 @@
+body{
+    min-width: 372px;
+}
+
+.navbar img{
+    max-width: 70px;
+}
+
+.wrapper{
+    min-height: 100vh;
+}
+
+.card-body a{
+    background-color: #d35200;
+    color: white;
+}
+
+.card-body a:hover{
+    background-color: white;
+    color: #d35200;
+    border:1px solid #d35200;
+}
+
+.card-body > .valor-product{
+    font-size: 20px;
+}

@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script
+      src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="icon" type="image/png" sizes="192x192"
+      href="imagens/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32"
+      href="imagens/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96"
+      href="imagens/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16"
+      href="imagens/favicon-16x16.png">
+    <link rel="manifest" href="imagens/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="imagens/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet"
+      href="/node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet"
+      href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/estilos.css">
+    <title>Cadastrar nova senha</title>
+  </head>
+
+  <body>
+    <div class="d-flex flex-column wrapper">
+      <nav
+        class="navbar navbar-expand-lg navbar-dark border-bottom shadow-sm p-1"
+        style="background-color: #d35200">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img src="/imagens/Becca pizza.png"
+              alt="Marca"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target=".navbar-collapse">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-white"
+                  href="/index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="/contato.html">Contato</a>
+              </li>
+            </ul>
+            <div class="align-self-end">
+              <ul class="navbar-nav flex-grow-1">
+                <li class="nav-item">
+                  <a href="/cadastro.html"
+                    class="nav-link text-white">Cadastra-se</a>
+                </li>
+                <li class="nav-item">
+                  <a href="/login.html" class="nav-link text-white">Entrar</a>
+                </li>
+                <li class="nav-item">
+                  <span
+                    class="badge rounded-pill bg-light text-danger position-absolute ms-4 mt-0"
+                    title="5 produtos no carrinho"><small>5</small></span>
+                  <a href="/carrinho.html" class="nav-link text-white">
+                    <i class="bi-cart"
+                      style="font-size: 24px; line-height: 24px;"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <main class="flex-fill">
+        <div class="container">
+          <div class="row justify-content-center">
+            <form action class="col-sm-10 col-lg-6 col-md-8 mt-5">
+              <h1 class="mb-5">Recuperar senha</h1>
+
+                <div class="form-floating mb-3">
+                  <input type="password" id="textSenha"
+                    class="form-control mb-3" autofocus>
+                  <label for="textEmail">Nova senha</label>
+                </div>
+
+                <div class="form-floating mb-3">
+                  <input type="password" id="textSenha"
+                    class="form-control mb-3">
+                  <label for="textEmail">Confirme a nova senha</label>
+                </div>
+
+                <button type="button"
+                  onclick="window.location.href='/confirmecadastrosenha.html'"
+                  class="btn btn-lg text-light px-3"
+                  style="background-color: #d35200;">Cadastrar nova senha</button>
+
+              </form>
+            </div>
+          </div>
+        </main>
+
+        <footer class="border-top text-muted"
+          style="background-color: #d35200;">
+          <div class="container">
+            <div class="row py-3">
+              <div class="col-12 col-md-4 py-3 text-center d-flex flex-column">
+                <h2 class="text-light">Institucional</h2>
+                <a href="/quemsomos.html"
+                  class="text-decoration-none text-light">Quem somos</a>
+                <a href="/privacidade.html"
+                  class="text-decoration-none text-light">Politica de
+                  privacidade</a>
+                <a href="/termos.html"
+                  class="text-decoration-none text-light">Nossos termos</a>
+                <a href="/trocas.html"
+                  class="text-decoration-none text-light">Politica de troca</a>
+              </div>
+
+              <div class="col-12 col-md-4 py-3 text-center d-flex flex-column">
+                <h2 class="text-light">Minha conta</h2>
+                <a href="/cadastro.html"
+                  class="text-decoration-none text-light">Cadastra-se</a>
+                <a href="/login.html"
+                  class="text-decoration-none text-light">Login</a>
+                <a href="/carrinho.html"
+                  class="text-decoration-none text-light">Carrinho</a>
+              </div>
+
+              <div class="col-12 col-md-4 py-3 text-center d-flex flex-column">
+                <h2 class="text-light">Fale conosco</h2>
+                <a href="/privacidade.html"
+                  class="text-decoration-none text-light">Politica de
+                  privacidade</a>
+                <a href="/envio.html"
+                  class="text-decoration-none text-light">Politica de envio</a>
+                <a href="/pagamento.html"
+                  class="text-decoration-none text-light">politica de
+                  pagamento</a>
+              </div>
+            </div>
+
+            <p style="text-align: center;" class="pt-2 text-light">
+              &copy; 2024 - Becca Pizzaria LTDA - Rua não existe, loja teste 12
+              -
+              Cep: 00000-000
+            </p>
+          </div>
+        </footer>
+      </div>
+    </body>
+  </html>
