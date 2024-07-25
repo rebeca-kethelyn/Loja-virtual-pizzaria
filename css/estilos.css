@@ -24,3 +24,21 @@ body{
 .card-body > .valor-product{
     font-size: 20px;
 }
+
+p.truncar-3l{
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.carrinho-name{
+    color: #d35200;
+}
+
+@media screen and (max-width: 475px){
+    .mt-xs-3{
+        margin-top: 1.5rem;
+    }
+}
