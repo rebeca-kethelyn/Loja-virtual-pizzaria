@@ -37,6 +37,26 @@ p.truncar-3l{
     color: #d35200;
 }
 
+
+.check-white:hover{
+    transition: color 0.1s ease;
+    background-color: #1e9d62;
+    color: white !important;
+    border-radius: 3%;
+}
+
+.check-white :hover{
+    color: white !important;
+    transition: color 0.2s ease;
+
+}
+
+.flex-even{
+    flex: 1;
+    min-width: 300px;
+}
+
+
 @media screen and (max-width: 475px){
     .mt-xs-3{
         margin-top: 1.5rem;
