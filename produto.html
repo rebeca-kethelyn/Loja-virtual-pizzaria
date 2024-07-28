@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" sizes="192x192"
+      href="imagens/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32"
+      href="imagens/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96"
+      href="imagens/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16"
+      href="imagens/favicon-16x16.png">
+    <link rel="manifest" href="imagens/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="imagens/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous">
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"></script>
+    <link rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Detalhes do Produto</title>
+  </head>
+
+  <body>
+    <div class="d-flex flex-column wrapper">
+      <nav
+        class="navbar navbar-expand-lg navbar-dark border-bottom shadow-sm p-1"
+        style="background-color: #d35200">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img src="imagens/Becca pizza.png"
+              alt="Marca"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target=".navbar-collapse">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-white"
+                  href="https://rebeca-kethelyn.github.io/Loja-virtual-pizzaria/index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white"
+                  href="https://rebeca-kethelyn.github.io/Loja-virtual-pizzaria/contato.html">Contato</a>
+              </li>
+            </ul>
+            <div class="align-self-end">
+              <ul class="navbar-nav flex-grow-1">
+                <li class="nav-item">
+                  <a
+                    href="https://rebeca-kethelyn.github.io/Loja-virtual-pizzaria/cadastro.html"
+                    class="nav-link text-white">Cadastra-se</a>
+                </li>
+                <li class="nav-item">
+                  <a
+                    href="https://rebeca-kethelyn.github.io/Loja-virtual-pizzaria/login.html"
+                    class="nav-link text-white">Entrar</a>
+                </li>
+                <li class="nav-item">
+                  <span
+                    class="badge rounded-pill bg-light text-danger position-absolute ms-4 mt-0"
+                    title="5 produtos no carrinho"><small>5</small></span>
+                  <a
+                    href="https://rebeca-kethelyn.github.io/Loja-virtual-pizzaria/carrinho.html"
+                    class="nav-link text-white">
+                    <i class="bi-cart"
+                      style="font-size: 24px; line-height: 24px;"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <main class="flex-fill">
+        <div class="container">
+          <div class="row g-3 my-3">
+            <div class="col-12 col-sm-6">
+              <img src="/imagens/pizza2.jpg" alt="Imagem da pizza"
+                class="img-thumbnail" id="imgProduto">
+              <br class="clearfix">
+              <div class="row mt-3 gx-3">
+                <div class="col-3">
+                  <img src="/imagens/pizza2.jpg" alt="Imagem da pizza"
+                    class="img-thumbnail" onclick="trocarImagem(this)">
+                </div>
+                <div class="col-3">
+                  <img src="/imagens/pizza4.jpg" alt="Imagem da pizza"
+                    class="img-thumbnail" onclick="trocarImagem(this)">
+                </div>
+                <div class="col-3">
+                  <img src="/imagens/pizza3.jpg" alt="Imagem da pizza"
+                    class="img-thumbnail" onclick="trocarImagem(this)">
+                </div>
+                <div class="col-3">
+                  <img src="/imagens/pizza4.jpg" alt="Imagem da pizza"
+                    class="img-thumbnail" onclick="trocarImagem(this)">
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-sm-6">
+              <h1>Pizza de sabor X</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
+                voluptates, alias tempora magni, hic quo quibusdam reprehenderit
+                similique deleniti officiis est rem obcaecati corrupti totam
+                exercitationem temporibus? Voluptatum, dolore?</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Recusandae facilis magnam culpa placeat voluptate a cupiditate
+                impedit necessitatibus, accusantium doloremque.</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis,
+                quidem maiores accusantium delectus qui cumque dolorum
+                voluptatibus fuga debitis quos beatae fugiat, earum vitae
+                suscipit impedit. Voluptas, modi laboriosam! Impedit minus
+                provident id voluptatum beatae illum hic dolor blanditiis
+                dicta.</p>
+
+              <p class="mt-5">
+                <a
+                  href="https://rebeca-kethelyn.github.io/Loja-virtual-pizzaria/carrinho.html"
+                  class="btn btn-lg btn-outline-success mb-3 mb-xl-0 me-2">
+                  <i class="bi-cart"> Adicionar ao carrinho</i>
+                </a>
+                <a
+                  href="https://rebeca-kethelyn.github.io/Loja-virtual-pizzaria/cliente-favoritos.html"
+                  class="btn btn-lg btn-outline-danger">
+                  <i class="bi-heart"> Adicionar aos favoritos</i>
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <footer class="border-top text-muted"
+        style="background-color: #d35200;">
+        <div class="container">
+          <div class="row py-3">
+            <div
+              class="col-12 col-md-4 py-3 text-center d-flex flex-column">
+              <h2 class="text-light">Institucional</h2>
+              <a
+                href="https://rebeca-kethelyn.github.io/Loja-virtual-pizzaria/quemsomos.html"
+                class="text-decoration-none text-light">Quem somos</a>
+              <a
+                href="https://rebeca-kethelyn.github.io/Loja-virtual-pizzaria/privacidade.html"
+                class="text-decoration-none text-light">Politica de
+                privacidade</a>
+              <a
+                href="https://rebeca-kethelyn.github.io/Loja-virtual-pizzaria/termos.html"
+                class="text-decoration-none text-light">Nossos termos</a>
+              <a
+                href="https://rebeca-kethelyn.github.io/Loja-virtual-pizzaria/trocas.html"
+                class="text-decoration-none text-light">Politica de
+                troca</a>
+            </div>
+
+            <div
+              class="col-12 col-md-4 py-3 text-center d-flex flex-column">
+              <h2 class="text-light">Minha conta</h2>
+              <a
+                href="https://rebeca-kethelyn.github.io/Loja-virtual-pizzaria/cadastro.html"
+                class="text-decoration-none text-light">Cadastra-se</a>
+              <a
+                href="https://rebeca-kethelyn.github.io/Loja-virtual-pizzaria/login.html"
+                class="text-decoration-none text-light">Login</a>
+              <a
+                href="https://rebeca-kethelyn.github.io/Loja-virtual-pizzaria/carrinho.html"
+                class="text-decoration-none text-light">Carrinho</a>
+            </div>
+
+            <div
+              class="col-12 col-md-4 py-3 text-center d-flex flex-column">
+              <h2 class="text-light">Fale conosco</h2>
+              <a
+                href="https://rebeca-kethelyn.github.io/Loja-virtual-pizzaria/privacidade.html"
+                class="text-decoration-none text-light">Politica de
+                privacidade</a>
+              <a
+                href="https://rebeca-kethelyn.github.io/Loja-virtual-pizzaria/envio.html"
+                class="text-decoration-none text-light">Politica de
+                envio</a>
+              <a
+                href="https://rebeca-kethelyn.github.io/Loja-virtual-pizzaria/pagamento.html"
+                class="text-decoration-none text-light">politica de
+                pagamento</a>
+            </div>
+          </div>
+
+          <p style="text-align: center;" class="pt-2 text-light">
+            &copy; 2024 - Becca Pizzaria LTDA - Rua não existe, loja teste
+            12
+            -
+            Cep: 00000-000
+          </p>
+        </div>
+      </footer>
+    </div>
+    <script>
+      function trocarImagem(el){
+        var imgProduto = document.getElementById("imgProduto");
+        imgProduto.src = el.src
+      }
+    </script>
+  </body>
+</html>
