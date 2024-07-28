@@ -27,7 +27,7 @@
     <link rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="css/estilos.css">
-    <title>Cadastrar nova senha</title>
+    <title>Alterar senha</title>
   </head>
 
   <body>
@@ -57,13 +57,13 @@
               <ul class="navbar-nav flex-grow-1">
                 <li class="nav-item">
                   <a
-                    href="https://rebeca-kethelyn.github.io/Loja-virtual-pizzaria/cadastro.html"
-                    class="nav-link text-white">Cadastra-se</a>
+                    href="https://rebeca-kethelyn.github.io/Loja-virtual-pizzaria/cliente-pedidos.html"
+                    class="nav-link text-white">Olá, Rebeca Lopes</a>
                 </li>
                 <li class="nav-item">
                   <a
                     href="https://rebeca-kethelyn.github.io/Loja-virtual-pizzaria/login.html"
-                    class="nav-link text-white">Entrar</a>
+                    class="nav-link text-white">Sair</a>
                 </li>
                 <li class="nav-item">
                   <span
@@ -84,28 +84,70 @@
 
       <main class="flex-fill">
         <div class="container">
-          <div class="row justify-content-center">
-            <form action class="col-sm-10 col-lg-6 col-md-8 mt-5">
-              <h1 class="mb-5">Recuperar senha</h1>
-
-              <div class="form-floating mb-3">
-                <input type="password" id="textSenha"
-                  class="form-control mb-3" autofocus>
-                <label for="textEmail">Nova senha</label>
+          <h1>Minha conta</h1>
+          <div class="row gx-3">
+            <div class="col-4">
+              <div class="list-group">
+                <a
+                  href="https://rebeca-kethelyn.github.io/Loja-virtual-pizzaria/cliente-dados.html"
+                  class="list-group-item list-group-item-action">
+                  <i class="bi-person fs-6"></i> Dados pessoais
+                </a>
+                <a
+                  href="https://rebeca-kethelyn.github.io/Loja-virtual-pizzaria/cliente-contatos.html"
+                  class="list-group-item list-group-item-action ">
+                  <i class="bi-mailbox fs-6"></i> Contatos
+                </a>
+                <a
+                  href="https://rebeca-kethelyn.github.io/Loja-virtual-pizzaria/cliente-endereco.html"
+                  class="list-group-item list-group-item-action ">
+                  <i class="bi-truck fs-6"></i> Endereço
+                </a>
+                <a
+                  href="https://rebeca-kethelyn.github.io/Loja-virtual-pizzaria/cliente-favoritos.html"
+                  class="list-group-item list-group-item-action ">
+                  <i class="bi-heart fs-6"></i> Favoritos
+                </a>
+                <a
+                  href="https://rebeca-kethelyn.github.io/Loja-virtual-pizzaria/cliente-senha.html"
+                  class="list-group-item list-group-item-action  text-light "
+                  style="background-color: #d35200;">
+                  <i class="bi-lock fs-6"></i> Alterar senha
+                </a>
+                <a
+                  href="https://rebeca-kethelyn.github.io/Loja-virtual-pizzaria/index.html"
+                  class="list-group-item list-group-item-action ">
+                  <i class="bi-door-open fs-6"></i> Sair
+                </a>
               </div>
+            </div>
+            <div class="col-8">
+              <form class="col-sm-12 col-md-8 col-lg-6">
+                <div class="form-floating mb-3">
+                  <input type="password" id="txtSenhaAtual"
+                    class="form-control mb-3" autofocus>
+                  <label for="txtSenhaAtual">Senha atual</label>
+                </div>
 
-              <div class="form-floating mb-3">
-                <input type="password" id="textSenha"
-                  class="form-control mb-3">
-                <label for="textEmail">Confirme a nova senha</label>
-              </div>
+                <div class="form-floating mb-3">
+                  <input type="password" id="textSenha"
+                    class="form-control mb-3">
+                  <label for="textEmail">Nova senha</label>
+                </div>
 
-              <button type="button"
-                onclick="window.location.href='https://rebeca-kethelyn.github.io/Loja-virtual-pizzaria/confirmecadastrosenha.html'"
-                class="btn btn-lg text-light px-3"
-                style="background-color: #d35200;">Cadastrar nova senha</button>
+                <div class="form-floating mb-3">
+                  <input type="passwoFrd" id="textSenha"
+                    class="form-control mb-3">
+                  <label for="textEmail">Confirme a nova senha</label>
+                </div>
 
-            </form>
+                <button type="button"
+                  onclick="window.location.href='https://rebeca-kethelyn.github.io/Loja-virtual-pizzaria/confirmecadastrosenha.html'"
+                  class="btn btn-lg text-light px-3"
+                  style="background-color: #d35200;">Alterar senha</button>
+
+              </form>
+            </div>
           </div>
         </div>
       </main>
